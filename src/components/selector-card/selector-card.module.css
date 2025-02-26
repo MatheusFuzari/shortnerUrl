@@ -1,0 +1,12 @@
+.selectorCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.selectorCard > p {
+    font-size: 2em;
+    font-weight: 700;
+}

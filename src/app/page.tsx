@@ -5,10 +5,12 @@ import Selector from 'components/selector/selector';
 export default function Home() {
   return (
     <div className="body">
-      <Header></Header>
-      <section>
-        <Selector title='Caralho'></Selector>
-      </section>
+        <header>
+          <Header />
+        </header>
+        <section>
+          <Selector />
+        </section>
       <section>
 
       </section>
