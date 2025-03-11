@@ -1,4 +1,4 @@
-.selectorCard {
+.selectorOption {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,7 +6,7 @@
     gap: 1rem;
 }
 
-.selectorCard > p {
-    font-size: 2em;
+.selectorOption > p {
+    font-size: 1.5em;
     font-weight: 700;
 }

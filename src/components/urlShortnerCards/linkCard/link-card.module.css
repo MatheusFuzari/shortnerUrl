@@ -1,0 +1,46 @@
+.linkContainer{
+    background-color: white;
+    box-shadow: 2px 2px 1px 4px black;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    height: 8rem;
+}
+
+.linkInput {
+    outline: none;
+    width: 70%;
+    height: 4rem;
+    border: none;
+    box-shadow: 1px 1px 0.5px 2px black;
+    border-radius: 5px;
+    padding: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.linkInput:focus {
+    border: 1px solid rgba(104, 22, 211, 0.596);
+    box-shadow: 1px 1px 0.5px 2px rgba(104, 22, 211, 0.8);
+}
+
+.linkHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkBody{
+    padding: 5px;
+}
+
+.generateButton {
+    height: 3.9rem;
+    width: 7rem;
+    font-size: 1em;
+    font-weight: 500;
+}

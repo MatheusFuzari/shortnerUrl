@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
   //     }
   //   }
   // }
+  env: {
+    SHORTNER_URL: process.env.SHORTNER_URL
+  }
 };
 
 export default nextConfig;
