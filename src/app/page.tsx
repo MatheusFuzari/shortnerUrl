@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import Selector from 'components/selector/selector';
 import { useState, createContext } from 'react';
 import LinkCard from 'components/urlShortnerCards/linkCard/link-card';
+import QrCodeCard from 'components/urlShortnerCards/qrCodeCard/qr-code';
 
 type SelectorContextType = {
   selector: boolean | null;
@@ -33,7 +34,9 @@ export default function Home() {
         </section>
         <section>
           <div className={styles.container}>
-            <LinkCard></LinkCard>
+            {
+              selector ? <QrCodeCard /> : <LinkCard />
+            }
           </div>
         </section>
     </div>

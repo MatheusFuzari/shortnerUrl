@@ -5,7 +5,7 @@
     margin: auto;
     margin-top: 2rem;
     border-radius: 5px;
-    height: 8rem;
+    height: auto;
 }
 
 .linkInput {
@@ -28,10 +28,9 @@
 
 .linkHeader {
     display: flex;
-    flex-direction: row;
-    padding: 5px;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
+    padding: 5px;
 }
 
 .linkBody{

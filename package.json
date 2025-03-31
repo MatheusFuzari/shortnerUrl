@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@next/env": "^15.2.0",
+    "@types/qrcode": "^1.5.5",
     "axios": "^1.8.1",
     "next": "15.1.6",
+    "qrcode": "^1.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
